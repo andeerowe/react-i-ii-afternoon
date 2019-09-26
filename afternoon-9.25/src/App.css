@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+
+.blue-home-bar {
+  background-color: rgb(95, 191, 255);
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 50px;
+  box-sizing: border-box;
+}
+
+.grey-container {
+  background-color: rgb(29, 29, 29);
+  width: 1000px;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homie {
+  color:black;
+  font-size: 22px;
+}
+
+.white-container {
+  background-color: white;
+  width: 800px;
+  height: 400px;
+}
+
+.page-number-container {
+  /* background-color: pink; */
+  width: 800px;
+  height:50px;
+  /* text-align: end; */
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  color: black;
+}
+
+.data-name {
+  /* background-color: lightsalmon; */
+  width: 800px;
+  height: 50px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 0 0 100px;
+  font-size: 30px;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(95, 191, 255)
+}
+
+.data-info-container {
+  /* background-color: lightseagreen; */
+  height: 120px;
+  box-sizing: border-box;
+  padding: 0 0 0 100px;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  text-align: start;
+  font-size: 22px;
+  color: black;
+}
+
+.data-favorite-container {
+  /* background-color: palegoldenrod; */
+  height: 150px;
+  color: black;
+  font-size: 22px;
+  box-sizing: border-box;
+  padding: 0 0 0 100px;
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  text-align: left;
+  
+}
+
+.favorite-movies {
+  /* background-color: red; */
+  height: 10px;
+  width: 200px;
+}
+
+.movies-list {
+  /* background-color: blue; */
+  width: 600px;
+  /* height: 100px; */
+  box-sizing: border-box;
+  padding: 0 0 0 30px;
+  
+}
+
+.bottom-nav {
+  /* background-color: pink; */
+  width: 800px;
+  height: 70px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 20px;
+  font-size: 22px;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: rgb(29, 29, 29);
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
